@@ -1,0 +1,41 @@
+﻿@using SmartHint_API.Models
+@model List<Cliente>
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Editar cliente</title>
+        <link rel="stylesheet" href="/css/style.css" />
+    </head>
+    <body>
+        <div id="criar">
+            <h2>Criar cliente</h2>
+            <form>
+                <label for="">Cliente/Razão social</label>
+                <input type="text" maxlength="150" placeholder="Nome completo ou Razão Social do Cliente">
+
+                <label for="">E-mail</label>
+                <input type="text" maxlength="150" placeholder="E-mail do Cliente">
+
+                <label for="">Telefone</label>
+                <input type="text" maxlength="15" placeholder="Telefone do Cliente">
+
+                <label for="">Cadastro</label>
+                <input type="datetime">
+
+                <label for="">Tipo de pessoa</label>
+                <select>
+                    <option value="fisica">Física</option>
+                    <option value="juridica">Juridica</option>
+                </select>
+
+                <label for="">CPF/CNPJ</label>
+                <input type="text" maxlength="18">
+
+                <label for="">Inscrição estadual</label>
+                <input type="text" maxlength="15">
+            </form>
+        </div>
+    </body>
+
+</html>

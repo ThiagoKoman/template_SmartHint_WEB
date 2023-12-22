@@ -1,0 +1,33 @@
+#clientes{
+    margin: 0 auto;
+    width: 60vw;
+}
+
+#clientes > section{
+    display: flex;
+    justify-content: space-between;
+}
+
+#clientes > section > div{
+    display: flex;
+    flex-direction: column;
+}
+
+#clientes > section > div > button{
+    margin-top: 5px;
+}
+
+#clientes > table{
+    margin-top: 20px;
+    border: 2px solid black;
+    width: 100%;
+}
+
+#clientes > table td  {
+    text-align: center;
+}
+
+#clientes > table th {
+    border-bottom: 2px solid black;
+    text-align: center;
+}
